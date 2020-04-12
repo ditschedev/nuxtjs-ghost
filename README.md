@@ -1,8 +1,8 @@
 # nuxtjs-ghost
 
-[![npm version](https://badge.fury.io/js/nuxtjs-ghost.svg)](https://badge.fury.io/js/nuxtjs-ghost)
-[![npm downloads](https://img.shields.io/npm/dw/nuxtjs-ghost)]
-[![License][https://img.shields.io/github/license/ditschedev/nuxtjs-ghost]][license-href]
+![npm version](https://badge.fury.io/js/nuxtjs-ghost.svg)
+![npm downloads](https://img.shields.io/npm/dw/nuxtjs-ghost)
+![License](https://img.shields.io/github/license/ditschedev/nuxtjs-ghost)
 
 > {{ description }}
 
