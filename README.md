@@ -4,7 +4,7 @@
 ![npm downloads](https://img.shields.io/npm/dw/nuxtjs-ghost)
 ![License](https://img.shields.io/github/license/ditschedev/nuxtjs-ghost)
 
-> NuxtJS module to easily interact with the Ghost API
+> NuxtJS module to easily interact with the 👻 Ghost API
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -159,7 +159,7 @@ All available methods are documented below:
 
 -----
 
-#### `async getTag(query, filter)` - Gets the page matching the identifier given in `query`.
+#### `async getPage(query, filter)` - Gets the page matching the identifier given in `query`.
 **Parameters**: 
 - `query`: Object giving the identifier of the page. Can be `slug` or `id`. E.g.: `{id: '1234'}`
 - (optional) `filter`: Object used for filtering. E.g.: `{fields: ['title']}`
