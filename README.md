@@ -40,6 +40,7 @@ The plugin needs an api key of your site and its endpoint url. Optionally you ca
 To set these values you have two options:
 1. Use the default module options
 2. Add your options globally to the `nuxt.config.js`
+3. Use environment variables
 
 #### Module Options
 When registering the module, don't register it as a string, but an array. The syntax should be:
@@ -65,6 +66,12 @@ ghost: {
   key: 'YOUR_API_KEY'
 }
 ```
+
+#### Environment Variables
+If you don't want sensitive data in your code, or got multiple environments, you can use environment variables to configure this plugin.
+
+`GHOST_API_KEY`: Sets the api key.
+`GHOST_API_URL`: Sets the api endpoint.
 
 ## Usage
 The usage is pretty straight forward. This package is just a wrapper for the official [JavaScript Content API](https://ghost.org/docs/api/v3/content/). Please check out their documentation to learn about [filtering](https://ghost.org/docs/api/v3/content/#parameters) or [pagination](https://ghost.org/docs/api/v3/content/#pagination). The `filter` parameter of the following methods is an `object` representation of the available query filters. 
