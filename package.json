@@ -1,6 +1,6 @@
 {
   "name": "nuxtjs-ghost",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "NuxtJS module to easily interact with the Ghost API",
   "repository": "https://github.com/ditschedev/nuxtjs-ghost",
   "license": "MIT",
