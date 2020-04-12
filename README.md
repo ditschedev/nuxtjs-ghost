@@ -1,7 +1,7 @@
-# {{ name }}
+# nuxtjs-ghost
 
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![npm version](https://badge.fury.io/js/nuxtjs-ghost.svg)](https://badge.fury.io/js/nuxtjs-ghost)
+[![npm downloads][https://img.shields.io/npm/dw/nuxtjs-ghost]][https://img.shields.io/npm/dw/nuxtjs-ghost]
 [![Github Actions CI][github-actions-ci-src]][github-actions-ci-href]
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
