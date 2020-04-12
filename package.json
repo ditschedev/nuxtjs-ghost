@@ -1,0 +1,39 @@
+{
+  "name": "nuxtjs-ghost",
+  "version": "1.0.0",
+  "description": "NuxtJS module to easily interact with the Ghost API",
+  "repository": "https://github.com/ditschedev/nuxtjs-ghost",
+  "license": "MIT",
+  "author": "Tobias Dittmann <hello@ditsche.dev> (https://ditsche.dev)",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/module.js",
+  "scripts": {
+    "dev": "nuxt example",
+    "lint": "eslint --ext .js,.vue .",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint && jest"
+  },
+  "dependencies": {
+    "@tryghost/content-api": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "@nuxtjs/module-test-utils": "latest",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "eslint": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
