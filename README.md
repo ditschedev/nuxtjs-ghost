@@ -1,7 +1,9 @@
 # nuxtjs-ghost
 
+![build](https://img.shields.io/github/workflow/status/ditschedev/nuxtjs-ghost/ci)
 ![npm version](https://badge.fury.io/js/nuxtjs-ghost.svg)
-![npm downloads](https://img.shields.io/npm/dw/nuxtjs-ghost)
+![npm downloads](https://img.shields.io/npm/dt/nuxtjs-ghost)
+![dependencies](https://david-dm.org/ditschedev/nuxtjs-ghost.svg)
 ![License](https://img.shields.io/github/license/ditschedev/nuxtjs-ghost)
 
 > NuxtJS module to easily interact with the 👻 Ghost API
@@ -35,7 +37,7 @@ After that you need to register the plugin, that NuxtJS can pick it up. To do th
 ```
 
 ## Configuration
-The plugin needs an api key of your site and its endpoint url. Optionally you can pass the version of the Ghost API you want to use. Typically the endpoint for your api is your sites hostname.
+The plugin needs an API key of your site and its endpoint URL. Optionally you can pass the version of the Ghost API you want to use. Typically the endpoint for your API is your sites hostname.
 
 To set these values you have two options:
 1. Use the default module options
@@ -59,7 +61,7 @@ When registering the module, don't register it as a string, but an array. The sy
 ```
 
 #### Global Configuration
-To set up global configuration, add the following object to your `export` of `nuxt.config.js`:
+To set up a global configuration, add the following object to your `export` of `nuxt.config.js`:
 ```js
 ghost: {
   url: 'YOUR_API_ENDPOINT',
@@ -70,8 +72,8 @@ ghost: {
 #### Environment Variables
 If you don't want sensitive data in your code, or got multiple environments, you can use environment variables to configure this plugin.
 
-`GHOST_API_KEY`: Sets the api key.
-`GHOST_API_URL`: Sets the api endpoint.
+`GHOST_API_KEY`: Sets the API key.
+`GHOST_API_URL`: Sets the API endpoint.
 
 ## Usage
 The usage is pretty straight forward. This package is just a wrapper for the official [JavaScript Content API](https://ghost.org/docs/api/v3/content/). Please check out their documentation to learn about [filtering](https://ghost.org/docs/api/v3/content/#parameters) or [pagination](https://ghost.org/docs/api/v3/content/#pagination). The `filter` parameter of the following methods is an `object` representation of the available query filters. 
