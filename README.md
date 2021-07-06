@@ -1,10 +1,10 @@
 # nuxtjs-ghost
 
-![build](https://img.shields.io/github/workflow/status/ditschedev/nuxtjs-ghost/ci)
-![npm version](https://badge.fury.io/js/nuxtjs-ghost.svg)
-![npm downloads](https://img.shields.io/npm/dt/nuxtjs-ghost)
-![dependencies](https://david-dm.org/ditschedev/nuxtjs-ghost.svg)
-![License](https://img.shields.io/github/license/ditschedev/nuxtjs-ghost)
+![build](https://img.shields.io/github/workflow/status/ditschedev/nuxtjs-ghost/ci?style=for-the-badge)
+![npm version](https://img.shields.io/github/package-json/v/ditschedev/nuxtjs-ghost?style=for-the-badge)
+![npm downloads](https://img.shields.io/npm/dt/nuxtjs-ghost?style=for-the-badge)
+![bundle size](https://img.shields.io/bundlephobia/min/nuxtjs-ghost?style=for-the-badge)
+![License](https://img.shields.io/github/license/ditschedev/nuxtjs-ghost?style=for-the-badge)
 
 > NuxtJS module to easily interact with the 👻 Ghost API
 
