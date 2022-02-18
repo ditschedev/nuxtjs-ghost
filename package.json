@@ -25,7 +25,7 @@
   "scripts": {
     "dev": "nuxt example",
     "lint": "eslint --ext .js,.vue .",
-    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "release": "yarn test && standard-version && git push --follow-tags && yarn publish",
     "test": "yarn lint && jest"
   },
   "dependencies": {
