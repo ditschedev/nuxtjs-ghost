@@ -1,6 +1,6 @@
 {
   "name": "nuxtjs-ghost",
-  "version": "1.1.12",
+  "version": "1.1.14",
   "description": "NuxtJS module to easily interact with the Ghost API",
   "repository": "https://github.com/ditschedev/nuxtjs-ghost",
   "homepage": "https://github.com/ditschedev/nuxtjs-ghost",
@@ -25,7 +25,7 @@
   "scripts": {
     "dev": "nuxt example",
     "lint": "eslint --ext .js,.vue .",
-    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "release": "yarn test && standard-version && git push --follow-tags && yarn publish",
     "test": "yarn lint && jest"
   },
   "dependencies": {
