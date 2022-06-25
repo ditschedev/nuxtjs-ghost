@@ -39,10 +39,10 @@
     "@nuxtjs/eslint-config": "latest",
     "@nuxtjs/module-test-utils": "latest",
     "babel-eslint": "latest",
-    "babel-jest": "^25.5.1",
+    "babel-jest": "^28.1.1",
     "eslint": "latest",
     "husky": "latest",
-    "jest": "^25.5.4",
+    "jest": "^28.1.1",
     "nuxt-edge": "^2.13.0-26541346.39dd866b",
     "standard-version": "latest"
   },
