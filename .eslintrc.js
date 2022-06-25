@@ -2,9 +2,11 @@ module.exports = {
   root: true,
   parserOptions: {
     parser: 'babel-eslint',
-    sourceType: 'module'
+    sourceType: 'module',
+    ecmaVersion: 2018
   },
   extends: [
-    '@nuxtjs'
-  ]
+    'prettier'
+  ],
+  plugins: ['prettier', 'vue'],
 }
