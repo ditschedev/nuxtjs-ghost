@@ -29,7 +29,7 @@
     "test": "yarn lint && jest"
   },
   "dependencies": {
-    "@tryghost/content-api": "^1.4.0"
+    "@tryghost/content-api": "^1.11.0"
   },
   "devDependencies": {
     "@babel/core": "latest",
@@ -39,11 +39,11 @@
     "@nuxtjs/eslint-config": "latest",
     "@nuxtjs/module-test-utils": "latest",
     "babel-eslint": "latest",
-    "babel-jest": "^25.4.0",
+    "babel-jest": "^25.5.1",
     "eslint": "latest",
     "husky": "latest",
-    "jest": "^25.4.0",
-    "nuxt-edge": "^2.13.0-26465775.85383688",
+    "jest": "^25.5.4",
+    "nuxt-edge": "^2.13.0-26541346.39dd866b",
     "standard-version": "latest"
   },
   "publishConfig": {
