@@ -29,7 +29,7 @@
     "test": "yarn lint && jest"
   },
   "dependencies": {
-    "@tryghost/content-api": "^1.11.4"
+    "@tryghost/content-api": "^1.11.20"
   },
   "devDependencies": {
     "@babel/core": "latest",
